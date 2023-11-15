@@ -4,7 +4,7 @@ function BatchResults = Batch_InterictalDetection(filename,threshold,channel,toD
 %
 %    BatchResults = Batch_InterictalDetection(filename,threshold,channel,toDenoise)
 %
-%    Main function for the interictal detection. Filter the signal, receive
+%    Main function for the interictal spike detection. Filter the signal, receive
 %    the interictal peaks, group the peaks to detect an event once and receive
 %    the amplitude and frequency of the events.
 %   
