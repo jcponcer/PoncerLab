@@ -1,0 +1,12 @@
+# MEA recordings (.h5, 450 MB - 1.3 GB each): above the GitHub file size limit (100 MB)
+mea_rec/*.h5
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Editor / OS files
+*.code-workspace
+Thumbs.db
